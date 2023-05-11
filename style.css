@@ -82,47 +82,48 @@ span{
     color: #848789;
 }
 .first{
-    background-image: url(bo2.jpg);
+    background-image: url(imgs/bo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     animation: slidein .5s linear alternate;
 }
 .second{
-    background-image: url(bo2.jpg);
+    background-image: url(imgs/bo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 113%;
     animation: slideout .5s linear alternate;
 }
 .four{
-    background-image: url(campagne.jpg);
+    background-image: url(imgs/campagne.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     animation: slideout .5s linear alternate;
 }
 .third{
-    background-image: url(multi.jpg);
+    background-image: url(imgs/multi.jpg);
     background-size: cover;
     animation: slidein .5s linear alternate;
 }
 .five{
-    background-image: url(tranzit.png);
+    background-image: url(imgs/tranzit.png);
     background-size: cover;
     animation: slidein .5s linear alternate;
 }
 .six{
-    background-image: url(apocalypse-zombies.jpg);
+    background-image: url(imgs/apocalypse-zombies.jpg);
     background-size: cover;
     background-position-x:50% ;
     animation: slidein .5s linear alternate;
 }
 .seven{
-    background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/blackops2/cod-bo2/dlc/dlc3-vengeance-bg.jpg");    background-size: cover;
+    background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/blackops2/cod-bo2/dlc/dlc3-vengeance-bg.jpg");    
+    background-size: cover;
     animation: slidein .5s linear alternate;
     background-position: 40%;
 }
 .eigth{
-    background-image: url(uprising.jpg);
+    background-image: url(imgs/uprising.jpg);
     background-size: cover;
     animation: slidein .5s linear alternate;
 }
