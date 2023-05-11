@@ -45,6 +45,7 @@ h1, .main-text{
 }
 span{
     color: rgb(255, 89, 0);
+    font-family: 'BLACK OPS 2', sans-serif; 
 }
 .image-content{
     background-color: rgba(0, 0, 0, .95);
