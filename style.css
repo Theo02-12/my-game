@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    overflow-x: hidden;
+}
+footer{
+    background-color: black;
+}
+.navbar{
+    padding: 5px;
+}
+.navbar-brand{
+    color: rgb(255, 89, 0) !important;
+    text-decoration: none;
+}
+h1, .main-text{
+    font-family: 'BLACK OPS 2', sans-serif;     
+    text-align: center;
+    padding: 10px;           
+    margin-top: 90px;
+    color: #848789;
+}
+.main-text{
+    width: 80%;
+    margin: 30px auto;
+    animation: getup 1s linear alternate;
+    text-align: start;
+}
+@keyframes getup {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+span{
+    color: rgb(255, 89, 0);
+}
+.image-content{
+    background-color: rgba(0, 0, 0, .95);
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    margin-top: 30px;
+}
+.mode{
+    width: 100%;
+}
+.image{
+    width: 40%;
+    height: 400px;
+    background-color: black;
+    transform: skew(-10deg);
+    /* margin: 10px; */
+}
+@media (min-width:1000px) {
+    .image{
+        width: 19.2%;
+    }
+    .main-text{
+        width: 40%;
+    }
+}
+.mode p{
+    font-family: 'BLACK OPS 2', sans-serif; 
+    margin: 0 50px;
+    animation: getup 1s linear;
+    width: 40%;
+    height: 400px;
+    transform: skew(-10deg);
+    color: #848789;
+}
+.first{
+    background-image: url(bo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slidein .5s linear alternate;
+}
+.second{
+    background-image: url(bo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 113%;
+    animation: slideout .5s linear alternate;
+}
+.four{
+    background-image: url(campagne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideout .5s linear alternate;
+}
+.third{
+    background-image: url(multi.jpg);
+    background-size: cover;
+    animation: slidein .5s linear alternate;
+}
+.five{
+    background-image: url(tranzit.png);
+    background-size: cover;
+    animation: slidein .5s linear alternate;
+}
+.six{
+    background-image: url(apocalypse-zombies.jpg);
+    background-size: cover;
+    background-position-x:50% ;
+    animation: slidein .5s linear alternate;
+}
+.seven{
+    background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/blackops2/cod-bo2/dlc/dlc3-vengeance-bg.jpg");    background-size: cover;
+    animation: slidein .5s linear alternate;
+    background-position: 40%;
+}
+.eigth{
+    background-image: url(uprising.jpg);
+    background-size: cover;
+    animation: slidein .5s linear alternate;
+}
+@keyframes slidein {
+    0%{
+        transform: translateX(-150%);
+    }
+}
+@keyframes slideout {
+    0%{
+        transform: translateX(150%);
+    }
+}
